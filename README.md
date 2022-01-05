@@ -1,4 +1,4 @@
-# Matlab-templates
+# Matlab-setup
 
 My personal MATLAB setup and templates
 
