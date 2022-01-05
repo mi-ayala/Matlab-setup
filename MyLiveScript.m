@@ -1,5 +1,8 @@
 
 function MyLiveScript(name)
-  copyfile('LiveScriptTemplate.mlx',name)
-  edit(V)
+
+  %%% Input without .mlx should work 
+  %%% It need to specify where do we create the file as second input.
+  copyfile('Matlab-setup/LiveScriptTemplate.mlx',name)
+  edit(name)
 end  

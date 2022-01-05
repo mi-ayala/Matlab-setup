@@ -2,10 +2,15 @@
 
 
 
-
-
-%%% Add Research forlder to search path
+%%% Add Research folder to search path for the current session
 addpath(genpath('~/Research'))
+
+%%% Move to Research folder
+cd
+cd Research
+
+%%% Update Reps (Bash script)
+
 
 %%% Plotting stuff
 set(0, 'DefaultLineLineWidth' , 2, ...
