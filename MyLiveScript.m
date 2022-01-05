@@ -1,5 +1,5 @@
 
 function MyLiveScript(name)
-  copyfile('myLiveScript_template.mlx',name)
+  copyfile('LiveScriptTemplate.mlx',name)
   edit(V)
 end  
