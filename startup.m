@@ -1,16 +1,14 @@
 
 
-
-
 %%% Add Research folder to search path for the current session
 addpath(genpath('~/Research'))
 
 %%% Move to Research folder
+cd ~
+cd Research
 
-%cd Research
-
-%%% Update Reps (Bash script)
-
+%%% Update Repos (Bash script)
+system('UpdateRepos.sh') 
 
 %%% Plotting stuff
 set(0, 'DefaultLineLineWidth' , 2, ...
