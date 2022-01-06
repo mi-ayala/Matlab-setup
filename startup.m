@@ -1,3 +1,12 @@
+%  ==================================================
+%  startup.m
+%  ==================================================
+%  DESCRIPTION 
+%  My personal setup for a MATLAB session.
+%
+%  __________________________________________________
+%  Miguel Ayala, 06-Jan-2022.
+%  ==================================================
 
 
 %%% Add Research folder to search path for the current session
@@ -7,8 +16,8 @@ addpath(genpath('~/Research'))
 cd ~
 cd Research
 
-%%% Update Repos (Bash script)
-system('UpdateRepos.sh') 
+%%% Update Repos (Bash-zsh script)
+system('sh ~/Documents/MATLAB/Matlab-setup/UpdateRepos.sh') ;
 
 %%% Plotting stuff
 set(0, 'DefaultLineLineWidth' , 2, ...
@@ -17,6 +26,8 @@ set(0, 'DefaultLineLineWidth' , 2, ...
        'defaultpatchlinewidth', 7);
        
 %%% Start Intlab
+% addpath ('~/Documents/MATLAB/Intlab_V11')
+% startintlab
 
        
   
