@@ -6,8 +6,8 @@
 addpath(genpath('~/Research'))
 
 %%% Move to Research folder
-cd
-cd Research
+
+%cd Research
 
 %%% Update Reps (Bash script)
 
