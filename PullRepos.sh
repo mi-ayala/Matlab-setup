@@ -2,7 +2,7 @@
 #!/bin/sh
 
 #  ==================================================
-#  UpdateRepos.sh
+#  PullRepos.sh
 #  ==================================================
 #  DESCRIPTION 
 #  Update all git repos in current folderforlat once.
