@@ -16,7 +16,7 @@ cd ~
 cd Research
 
 %%% Update Repos (Bash-zsh script)
-system('sh ~/Documents/MATLAB/Matlab-setup/UpdateRepos.sh') ;
+system('sh ~/Documents/MATLAB/Matlab-setup/PullRepos.sh') ;
 
 %%% Plotting stuff
 set(0, 'DefaultLineLineWidth' , 2, ...
