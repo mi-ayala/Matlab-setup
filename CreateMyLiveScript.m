@@ -1,5 +1,5 @@
 
-function CreateLiveScript(name)
+function CreateMyLiveScript(name)
 %  ==================================================
 %  CreateLiveScript
 %  ==================================================

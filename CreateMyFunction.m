@@ -1,4 +1,4 @@
-function CreateFunction(name)
+function CreateMyFunction(name)
 %  ==================================================
 %  CreateFunction
 %  ==================================================
