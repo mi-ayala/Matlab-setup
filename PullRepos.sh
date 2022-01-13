@@ -5,7 +5,7 @@
 #  PullRepos.sh
 #  ==================================================
 #  DESCRIPTION 
-#  Update all git repos in current folderforlat once.
+#  Update all git repos in current folder at once.
 #  __________________________________________________
 #  Miguel Ayala, 06-Jan-2022.
 #  ==================================================
