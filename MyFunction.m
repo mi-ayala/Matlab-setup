@@ -41,7 +41,7 @@ function MyFunction(name)
         fprintf(fi,['%%  ' 'Miguel Ayala,' ' ' date '.' '\n']);
         fprintf(fi,['%%  ' sprintf(repmat('=',1,n)) '\n' '\n']);
         fprintf(fi,'end  ' );
-        fclose(fid);
+        fclose(fi);
        
 
     %%% Open file
