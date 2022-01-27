@@ -1,5 +1,5 @@
 
-function CreateLiveScript(name)
+function MyLiveScript(name)
 %  ==================================================
 %  CreateLiveScript
 %  ==================================================
@@ -11,8 +11,8 @@ function CreateLiveScript(name)
 %  Miguel Ayala, 06-Jan-2022.
 %  ==================================================
 
-%   fsuffix = '.mlx';
-%   filename = fullfile(pwd,[name fsuffix]);
+ % fsuffix = '.mlx';
+  %filename = fullfile(pwd,[name fsuffix]);
 
   copyfile('~/Documents/MATLAB/Matlab-setup/LiveScriptTemplate.mlx',name)
   edit(name)

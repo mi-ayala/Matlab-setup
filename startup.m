@@ -23,7 +23,9 @@ set(0, 'DefaultLineLineWidth' , 2, ...
        'defaultaxesfontsize'  ,12, ...
        'defaultaxeslinewidth' , 7, ...
        'defaultpatchlinewidth', 7);
-       
+
+%%% [0;0.45;0.74]
+              
 %%% Start Intlab
 % addpath ('~/Documents/MATLAB/Intlab_V11')
 % startintlab
